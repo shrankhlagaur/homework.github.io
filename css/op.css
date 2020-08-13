@@ -58,11 +58,11 @@ padding: 10px 10px;
 margin-left: 100px;
 }
 
-p{ font-weight: bold;
+p{ 
     margin-left: 30px;
     margin-right: 30px;
     color:darksalmon;
-    font-size: 20px;
+    
     font-family: serif;
 }
 

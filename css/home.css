@@ -274,4 +274,12 @@ margin-right: 20%;
   border: 1px solid black;
   font-size: 30px;
   text-align: center;
+   
+}
+.grid-container img{
+    width:100%;
+    height:80%%;
+}
+.grid-item a {
+    text-decoration: none;
 }
