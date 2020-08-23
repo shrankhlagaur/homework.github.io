@@ -1,20 +1,11 @@
-#bar{
-    background-color: white;
-  width: 60%;
-    height: 50%;
-    font-size: 23px;
-    padding-top: 20px;
-    align-content: center;    
-  color: black;
-  margin-left: 20%;
-}
+
 
 
 
 .header{
  border: 2px  black;  text-align: center;
     font-size: 30px;
-    background-color: #4caf8d61;
+    /*background-color: #4caf8d61*/;
     width: 100%;
     
 }

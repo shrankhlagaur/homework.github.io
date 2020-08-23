@@ -3,8 +3,12 @@
 */
 
 body {
-  background: #150f21;
+
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,27,12,1) 34%, rgba(48,14,87,1) 100%);
+  /*background: #150f21;*/
   font-size: 18px;
+   
 }
 
 p {
