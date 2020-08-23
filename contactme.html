@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+<link rel="stylesheet" href="css/contact1.css">
+<link rel="stylesheet" href="css/heading.css">
+</head>
+    
+
+<body>
+
+<header class="header">
+    <a href="index.html">My Portfolio</a>
+</header>
+
+
+
+<nav class="navbar">
+    
+    <a class="buttons" href="index.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Home
+    </a>
+    <a class="buttons" href="contactme.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Contact
+    </a>
+    <a class="buttons" href="About.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        About Me
+    </a>
+    </nav>
+    
+<div class="contact" >
+  <div class="container">
+    <div class="col-md-offset-1 col-md-10">
+      <h2>Contact Me<i class="fa fa-paper-plane-o"></i></h2>
+      <div id="map-canvas"></div>
+    </div>
+    <form method="post" action="contact.php" name="contactform" id="contactform">
+      <div class="col-md-offset-1 col-md-5">
+        <fieldset>
+          <input name="name" type="text" id="name" size="30" placeholder="Name">
+          <br>
+          <input name="email" type="text" id="email" size="30" placeholder="Email">
+          <br>
+          <input name="phone" type="text" id="phone" size="30" placeholder="Phone">
+          <br>
+          <input name="human" type="text" id="human" size="30" placeholder="Prove your not a robot... What is 2+2?">
+          <br>
+        </fieldset>
+      </div>
+      <div class="col-md-5">
+        <fieldset>
+          <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Message"></textarea>
+        </fieldset>
+      </div>
+      <div class="col-md-offset-1 col-md-10">
+        <fieldset>
+          <button type="submit" class="btn btn-lg" id="submit" value="Submit">Send Message</button>
+        </fieldset>
+      </div>
+    </form>
+  </div>
+</div>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    
+    
+    
+</body>
+</html>

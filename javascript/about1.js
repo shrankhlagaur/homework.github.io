@@ -180,3 +180,34 @@ function resize() {
 }
 
 var paragraphText = "<p>Hello! I am Shrankhla Gaur, a content writer, who is trying to learn HTML and CSS. This is my personal website. I made it for practice pourpose. If you like my work, don't forget to tell me. To contact me use the links I have provided in the home page. Thanks, Have a good day!</p>";
+
+
+
+// Contact me
+
+
+
+function initialize() {
+  var mapOptions = {
+    center: new google.maps.LatLng(28.1823295, -82.352912),
+    zoom: 9,
+    mapTypeId: google.maps.MapTypeId.HYBRID,
+    scrollwheel: false,
+    draggable: false,
+    panControl: true,
+    zoomControl: true,
+    mapTypeControl: true,
+    scaleControl: true,
+    streetViewControl: true,
+    overviewMapControl: true,
+    rotateControl: true,
+  };
+  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+
+
+
