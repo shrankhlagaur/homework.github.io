@@ -186,7 +186,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 
 footer{
     margin-top: 1%;
-  width: 100%;
+  width: 98%;
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   bottom: -300px;
@@ -199,14 +199,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 {
   height: 800px;
   min-height: 800px;
-  
-  position: relative;
+      
+    position: relative;
   z-index: 1;
 }
 
 .wrapper-parallax {
+    margin: auto;
+  width: 100%;
   margin-top: 10%;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 background: rgb(63,94,251);
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
@@ -367,6 +369,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+    overflow: hidden;
 }
 
 .box1 img{
@@ -383,6 +386,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+   
 }
 
 
