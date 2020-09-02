@@ -60,6 +60,9 @@ iframe{
 p{color: white;
 font-size: 20px;
 }
+.front_box{
+    font-size: 25px;
+}
 
 ul{
  list-style-type: none;
