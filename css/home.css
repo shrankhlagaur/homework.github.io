@@ -35,7 +35,7 @@ section{
     padding: px;
 }
 
-aside {
+#foot {
   /*height: 650px;
     width: 220px;*/
     margin: auto;
@@ -45,20 +45,36 @@ aside {
   padding: 1%;
   float: left;
   font-style: italic;
-  background-color: mediumslateblue;
+  background-color: #6392b1cc;
     color: white;
     overflow: hidden;
     font-size: 25px;
 }
 iframe{
+    margin-top: 3px;
     float: right;
-    height: 500px;
+    height: 450px;
     width: 220px;
+    overflow: hidden;
 }
 
 
 p{color: white;
 font-size: 20px;
+}
+
+#base {
+   margin: 10px;
+  width: 300px;
+    height: 150px;
+  border: 1px thin;
+  float: right;
+  font-style: italic;
+  background-color: #6b96b99e;
+    color: white;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 10px;
 }
 .front_box{
     font-size: 25px;
@@ -176,8 +192,9 @@ new css
 {
   width: 100%;
   height: 100%;
-  background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  /*background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);*/
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
   top: 0;
@@ -187,6 +204,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 footer{
     margin-top: 1%;
   width: 98%;
+    height: 250px;
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   bottom: -300px;
@@ -200,6 +218,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   height: 800px;
   min-height: 800px;
       
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(77,106,140,1) 100%);
     position: relative;
   z-index: 1;
 }
@@ -210,8 +230,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   margin-top: 10%;
   margin-bottom: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background-color: #4caf8d61;
     background-repeat: no-repeat;
     background-size: contain;
 }
